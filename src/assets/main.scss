@@ -1,0 +1,128 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.list-reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-reset {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.form {
+  width: 66%;
+}
+
+.wrapper {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  margin-right: 20px;
+}
+
+.btn-add {
+  padding: 10px 15px;
+  font-size: 24px;
+  color: #7a83af;
+  border: 1px solid #7a83af;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-add:hover {
+  background-color: #7a83af;
+  color: #fff;
+}
+
+.clue {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgba(122, 131, 175, 0.3);
+}
+
+.clue-quest {
+  padding: 2px 7px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-marks {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+.above {
+  width: calc(100% / 4);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: calc((100% - 20px) / 4);
+}
+
+.label:not(:last-child) {
+  margin-right: 5px;
+}
+
+.label:nth-child(4) {
+  margin-right: 0;
+}
+
+.passwordNull {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+}
+
+.label-password {
+  position: relative;
+}
+
+.hidden {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.delete {
+  font-size: 25px;
+}
+
+.unvalid {
+  border: 1px solid red;
+}
